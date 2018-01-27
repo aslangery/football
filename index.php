@@ -1,6 +1,4 @@
 <?php
-
-
 function match($id1,$id2)
 {
     include 'data.php';

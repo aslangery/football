@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <?php
 include 'index.php';
-    include 'data.php';
+include 'data.php';
 ?>
 <html>
     <head>
@@ -37,10 +33,8 @@ include 'index.php';
             <input type="submit" title="Result"/>
         </form>
         <?php
-            
             $res= match($id1, $id2);
             echo $res[0].' : '.$res[1];
         ?>
-        
     </body>
 </html>
